@@ -1,0 +1,7 @@
+#!/bin/bash
+# Update documents and resume
+
+RECENT=`ls -t | head -1`
+echo "$RECENT"
+cp $RECENT Resume-current.pdf
+echo "Done."

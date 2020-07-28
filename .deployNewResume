@@ -1,0 +1,6 @@
+#!/bin/bash
+# Deploy a new Resume from the Resumator to github
+
+./resumator
+mv pdf/* resumes
+./resumes/.updateResume

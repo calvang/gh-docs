@@ -3,5 +3,5 @@
 
 RECENT=`ls -t resumes/resumes | head -1`
 echo "$RECENT"
-cp resumes/resumes/$RECENT resumes/resumes/Resume-current.pdf
+cp resumes/resume/$RECENT resumes/resume/Resume-current.pdf
 echo "Done."

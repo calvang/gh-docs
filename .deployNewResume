@@ -2,5 +2,5 @@
 # Deploy a new Resume from the Resumator to github
 
 ./resumator
-mv pdf/* resumes/resumes
+mv pdf/* resumes/resume
 ./resumes/.updateResume

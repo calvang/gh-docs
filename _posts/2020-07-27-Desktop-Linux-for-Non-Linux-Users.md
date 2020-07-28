@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Desktop Linux for Non-Linux Users"
+date: 2020-07-27
+---
+Calvin Huang
+
 # Desktop Linux for Non-Linux Users
 
 2020-07-27 by Calvin Huang 

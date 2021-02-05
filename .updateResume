@@ -9,7 +9,8 @@ echo "$RECENT"
 pdftk resumes/resume/$RECENT output resumes/resume/tmp.pdf uncompress
 sed -ig 's/Border \[0 0 1\]/Border \[0 0 0\]/g' resumes/resume/tmp.pdf
 pdftk resumes/resume/tmp.pdf output resumes/resume/$RECENT compress
-#rm resumes/resume/tmp.pdf
+rm resumes/resume/tmp.pdf
+rm resumes/resume/tmp.pdfg
 
 # copy the most recent resume and save as 'Resume-current'
 cp resumes/resume/$RECENT resumes/resume/Resume-current.pdf
